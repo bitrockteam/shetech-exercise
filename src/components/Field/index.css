@@ -1,0 +1,40 @@
+.wrap-input {
+  width: 100%;
+  border-bottom: 2px solid rgba(219,21,99,1);
+  margin-bottom: 37px;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  height: 45px;
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.2;
+}
+
+label {
+  color: rgba(219,21,99,1);
+}
+
+
+.faces {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.face {
+  width: 100%;
+  font-size: 100px;
+  cursor: pointer;
+  padding: 25px;
+  text-align: center;
+}
+
+.selected {
+  border: 5px solid rgba(219,21,99,1);
+  border-radius: 25px;
+  background: linear-gradient(45deg, rgba(213,0,125,0.8), rgba(229,57,53,0.8));
+}

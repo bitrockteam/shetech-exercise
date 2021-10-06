@@ -1,0 +1,21 @@
+.header {
+  height: 100px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+.img-wrapper {
+  width: 160px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.heart {
+  color: rgba(219,21,99,1);
+  font-size: 75px;
+}
