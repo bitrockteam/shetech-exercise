@@ -16,6 +16,7 @@ const Feedback = ({ setFeedbackList }) => {
 	const saveFeedback = () => {
 		setFeedbackList(f => ([...f, form]));
 		setForm(defaultForm);
+		alert('Feedback sent!')
 	};
 
 	return (
@@ -29,8 +30,8 @@ const Feedback = ({ setFeedbackList }) => {
 				<Faces name="result" value={form.result} onChange={updateField} />
 
 				<div className="actions">
-					<button className="form-btn" type="button" onClick={saveFeedback}>
-					Save
+					<button className="form-btn" type="button" disabled={!form.name || !form.result} onClick={saveFeedback}>
+					Send
 					</button>
 				</div>
 			</form>

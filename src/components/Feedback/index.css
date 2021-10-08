@@ -33,3 +33,7 @@
   color: #fff;
   border-radius: 10px;
 }
+
+.form-btn:disabled {
+  background: lightgray;
+}
