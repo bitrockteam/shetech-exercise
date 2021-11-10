@@ -1,30 +1,16 @@
-import React, {useState} from "react";
+import React from "react";
 import Header from "./components/Header";
-import Tabs from "./components/Tabs";
-import Feedback from "./components/Feedback";
-import Summary from "./components/Summary";
 import "./App.css";
 
-
+// Il primo componente React...
+// tutti i prossimi componenti che scriverete avranno questa implementazione di base
 function App() {
-	const [tab, setTab] = useState("FEEDBACK");
-	const [feedbackList, setFeedbackList] = useState([]);
 
-	const renderTab = (t) => {
-		switch (t) {
-		case "SUMMARY":
-			return <Summary feedbackList={feedbackList} />;
-		case "FEEDBACK":
-		default:
-			return <Feedback setFeedbackList={setFeedbackList} />;
-		}
-	};
 	return (
 		<div className="app">
 			<Header />
 			<div className="shade-bg">
-				<Tabs setTab={setTab} current={tab} />
-				{renderTab(tab)}
+					{/*qui puoi iniziare a inserire i prossimi componenti*/}
 			</div>
 		</div>
 	);
