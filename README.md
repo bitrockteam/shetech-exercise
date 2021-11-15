@@ -12,7 +12,7 @@ Nella cartella `src` è quindi presente il "boilerplate" del progetto, che conti
 Invece in `components` si metteranno tutti i nuovi componenti che verranno sviluppati.
 
 ## Steps
-Il risultato finale al quale dobbiamo puntare è visibile [qui](https://facebook.github.io/create-react-app/docs/running-tests). \
+Il risultato finale al quale dobbiamo puntare è visibile [qui](https://codesandbox.io/s/stupefied-mahavira-l42rh). \
 Per arrivarci possiamo procedere gradualmente seguendo questi passaggi:
 1. Creare un nuovo componente che conterrà la form di inserimento dati (nome e feedback "MALE, NEUTRALE, OTTIMO")
 2. Salvare i dati inseriti nel componente `App` (nb. useState)
@@ -23,5 +23,5 @@ Per arrivarci possiamo procedere gradualmente seguendo questi passaggi:
 # Documentazione
 Abbiamo preparato per voi la documentazione con le informazioni teoriche necessarie per poter affrontare ogni parte dell'esercizio,
 sarà sempre disponibile a questo link:\
-[Documentazione React Bootcamp](https://facebook.github.io/create-react-app/docs/running-tests) \
+[Documentazione React Bootcamp](https://sharp-keller-16953e.netlify.app/) \
 Per qualsiasi altro dubbio o informazione avete a disposizione un teacher di riferimento. 
