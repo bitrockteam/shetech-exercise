@@ -11,6 +11,8 @@ Nel file `DOCS.md` ci sono delle istruzioni con altri link per approfondire l'ar
 Nella cartella `src` è quindi presente il "boilerplate" del progetto, che contiene del codice già scritto per poter iniziare subito a scrivere i nostri componenti React.\
 Invece in `components` si metteranno tutti i nuovi componenti che verranno sviluppati.
 
+PS. se non avete la possibilità di scaricare la repository GIT e compilarla in locale il link per sviluppare il codice via browser è [qui](https://codesandbox.io/s/morning-moon-s92et)
+
 ## Steps
 Il risultato finale al quale dobbiamo puntare è visibile [qui](https://codesandbox.io/s/stupefied-mahavira-l42rh). \
 Per arrivarci possiamo procedere gradualmente seguendo questi passaggi:
@@ -24,4 +26,4 @@ Per arrivarci possiamo procedere gradualmente seguendo questi passaggi:
 Abbiamo preparato per voi la documentazione con le informazioni teoriche necessarie per poter affrontare ogni parte dell'esercizio,
 sarà sempre disponibile a questo link:\
 [Documentazione React Bootcamp](https://sharp-keller-16953e.netlify.app/) \
-Per qualsiasi altro dubbio o informazione avete a disposizione un teacher di riferimento. 
+Per qualsiasi altro dubbio o informazione avete a disposizione un teacher di riferimento.
